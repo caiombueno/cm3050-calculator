@@ -1,5 +1,5 @@
 import { TouchableOpacity, StyleSheet, Text } from 'react-native';
-import { SCREEN_WIDTH } from '../consts/screen-width';
+import { SCREEN_WIDTH } from '../../../../consts/screen-width';
 
 
 export const DarkGreyButton = props => <Button style={styles.darkGreyButton} onPress={props.onPress} > {props.children} </Button>;
