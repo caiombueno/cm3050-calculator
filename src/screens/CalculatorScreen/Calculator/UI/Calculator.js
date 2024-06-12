@@ -39,7 +39,7 @@ export const Calculator = () => {
 
     return (
         <View style={styles.view}>
-            <ResultText>{outputValue ?? 0}</ResultText>
+            <ResultText>{outputValue}</ResultText>
             <CalculatorPad calculatorKeys={calculatorKeys} buttonPressed={buttonPressed} />
         </View>
     );
